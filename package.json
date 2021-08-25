@@ -1,0 +1,15 @@
+{
+  "name": "lambda-html-to-pdf",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:lysz210/lambda-html-to-pdf.git",
+  "author": "Lingyong Sun <lysz210@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore ."
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}

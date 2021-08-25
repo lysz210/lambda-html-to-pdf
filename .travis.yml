@@ -6,6 +6,9 @@ os:
   - linux
 dist: focal
 
+script:
+  - echo "Skipping tests"
+
 deploy:
   provider: lambda
   function_name: "html-to-pdf"
