@@ -1,8 +1,7 @@
 deploy:
   provider: lambda
   function_name: "html-to-pdf"
-  region: "us-east-1"
+  region: "us-east-2"
   role: "aarn:aws:lambda:us-east-2:843380199157:function:cps-translate"
   runtime: "nodejs12.x"
   handler_name: "handler"
-  
