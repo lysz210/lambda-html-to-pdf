@@ -13,7 +13,7 @@ deploy:
   provider: lambda
   function_name: "html-to-pdf"
   region: "us-east-2"
-  role: "arn:aws:iam::843380199157:user/travis"
+  role: "arn:aws:iam::843380199157:role/travis_lambda"
   runtime: "nodejs12.x"
   handler_name: "handler"
   on:
